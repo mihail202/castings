@@ -1,0 +1,31 @@
+html, * {
+           outline: 1px solid orange;
+}
+body{
+margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font-family: "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+  color: #845C40;
+  width: 1040px;
+margin: 0 auto;
+padding: 0;
+}
+.topbutton {
+    width:100px;
+    border:2px solid #ccc;
+    background:#f7f7f7;
+    text-align:center;
+    padding:10px;
+    position:fixed;
+    bottom:50px;
+    right:50px;
+    cursor:pointer;
+    color:#333;
+    font-family:verdana;
+    font-size:12px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+}
